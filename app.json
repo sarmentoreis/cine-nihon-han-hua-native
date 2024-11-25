@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "cine-nihon-han-hua",
-    "slug": "cine-nihon-han-hua",
+    "name": "cine-nihon-han-hua-native",
+    "slug": "cine-nihon-han-hua-native",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./public/app-icon.svg",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -23,6 +23,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": ["expo-font"]
   }
 }
